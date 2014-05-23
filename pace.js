@@ -60,7 +60,7 @@ function Pace(options) {
 
   // Setup charm.
   this.charm = charm();
-  this.charm.pipe(process.stdout);
+  this.charm.pipe(process.stderr);
 
   // Prepare the output.
   this.charm.write("\n\n\n");
